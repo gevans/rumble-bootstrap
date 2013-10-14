@@ -22,6 +22,7 @@ This bootstrap is meant to be run on a fresh Linode. When run, it will handle:
 * Adding Rails Rumble's key to the `root` user (they sorta require that)
 * Adding some fancy informational messages from `config/motd.tail` and `config/issue.net`
 * Installing Dokku to allow Heroku-style deployments
+* Configures Dokku to link deployed apps to `/home/git/apps/<app name>`
 
 ### Doku
 
