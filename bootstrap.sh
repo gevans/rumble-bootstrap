@@ -56,6 +56,9 @@ apt-get -y install tzdata
 echo "Etc/UTC" > /etc/timezone
 dpkg-reconfigure tzdata
 
+# Install ntpd
+apt-get -y install ntp
+
 # Set the machine hostname
 echo $HOSTNAME > /etc/hostname
 sed -i -r "s/^127.0.0.1 localhost/127.0.0.1 localhost $HOSTNAME/" > /etc/hosts || true
