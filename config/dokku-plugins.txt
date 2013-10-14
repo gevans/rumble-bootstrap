@@ -1,0 +1,6 @@
+https://github.com/Kloadut/dokku-pg-plugin.git postgresql
+https://github.com/jeffutter/dokku-mongodb-plugin.git mongodb
+https://github.com/josegonzalez/dokku-config.git config
+https://github.com/luxifer/dokku-redis-plugin.git redis
+https://github.com/pnegahdar/dokku-node.git node
+https://github.com/statianzo/dokku-supervisord.git supervisord

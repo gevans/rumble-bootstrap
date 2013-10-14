@@ -1,0 +1,3 @@
+[submodule "dokku"]
+	path = dokku
+	url = git://github.com/gevans/dokku.git
